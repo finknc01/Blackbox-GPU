@@ -2,6 +2,17 @@
 
 > **The training run is dead. The only witness is telemetry. Reconstruct what happened.**
 
+## Project status
+
+| Field | Current state |
+|---|---|
+| **Status** | **Planned — baseline begins during GPU diagnostics; main campaign later** |
+| **Current stage** | Campaign authored; no telemetry baseline, dashboard, or incident reconstruction is claimed yet |
+| **Lab environment** | Local GPU telemetry where supported plus Linux host metrics; unsupported GPU fault classes use labeled reference/synthetic evidence |
+| **Evidence rule** | Never manufacture real Xid/ECC/thermal failures; simulated or reference traces must be labeled clearly |
+| **Last plan sync** | 2026-08-19 |
+| **License** | No open-source license is granted unless an explicit license is added later |
+
 ## Skills you will build
 
 - GPU telemetry and health monitoring
